@@ -42,3 +42,39 @@ footer {
 #funParagraph {
     color: green;
 }
+#firstHeader {
+    color: white;
+}
+footer {
+    color: white;
+}
+footer:hover {
+    color: rgb(0, 0, 0);
+}
+
+/* This is for animating */
+@keyframes backgroundColors {
+    0% {
+        background: rgb(0, 0, 0);
+    }
+    /* 25% {
+        background: rgb(0, 0, 25);
+    }
+    50% {
+        background: rgb(0, 0, 50);
+    }
+    75% {
+        background: rgb(0, 0, 75);
+    } */
+    100% {
+        background: rgb(0, 0, 100);
+    }
+}
+/* This runs the animation */
+body {
+    animation-name: backgroundColors; 
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
