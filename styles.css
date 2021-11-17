@@ -305,7 +305,7 @@ body {
 
 }
 #cloud {
-    overflow: hidden;
+    
     width: calc(100%);
     max-width: 1500px;
     height: 50px;
