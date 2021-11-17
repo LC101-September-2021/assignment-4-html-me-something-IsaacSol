@@ -248,3 +248,114 @@ body {
     22% {height: 50px;}
     100% {height: 50px;}
 }
+
+#sky {
+    width: calc(100%);
+    height: 1000px;
+    background-color: lightcyan;
+    position:absolute;
+    top: 2500px;
+}
+#ground {
+    width: calc(100%);
+    height: 500px;
+    background-color: green;
+    position: relative;
+    top: calc(100% - 500px);
+}
+@keyframes cloudMoving {
+    0%  {left:-75%}
+    100% {left:75%}
+}
+.cloudPuff1 {
+    width: calc(10%);
+    height: calc(100%);
+    position: relative;
+    background-color: white;
+    border-radius: 50%;
+    top:0px;
+    left: 50%;
+}
+.cloudPuff2 {
+    width: calc(10%);
+    height: calc(100%);
+    position: relative;
+    background-color: white;
+    border-radius: 50%;
+    top:0px;
+    left: 50%;
+}
+.cloudPuff3 {
+    width: calc(20%);
+    height: calc(100%);
+    position: relative;
+    background-color: white;
+    border-radius: 50%;
+    top:-75px;
+    left: calc(50%);
+}
+.cloudPuff4 {
+    width: calc(20%);
+    height: calc(100%);
+    position: relative;
+    background-color: white;
+    border-radius: 50%;
+    top:-125px;
+    left: calc(40%);
+
+}
+#cloud {
+    width: calc(100%);
+    max-width: 1500px;
+    height: 50px;
+    position: relative;
+    top:250px;
+    left: calc(-100%);
+    animation-name: cloudMoving;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
+}
+#cloud1 {
+    width: calc(100%);
+    max-width: 1500px;
+    height: 50px;
+    position: relative;
+    top:250px;
+    left: calc(-100%);
+    animation-name: cloudMoving;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
+    animation-delay: 4s;
+}
+#cloud2 {
+    width: calc(100%);
+    max-width: 1500px;
+    height: 50px;
+    position: relative;
+    top:50px;
+    left: calc(-100%);
+    animation-name: cloudMoving;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
+    animation-delay: 8s;
+}
+#cloud3 {
+    width: calc(100%);
+    max-width: 1500px;
+    height: 50px;
+    position: relative;
+    top:-100px;
+    left: calc(-100%);
+    animation-name: cloudMoving;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
+    animation-delay: 13s;
+}
