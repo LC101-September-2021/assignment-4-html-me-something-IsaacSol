@@ -42,7 +42,7 @@ footer {
 #art2Header {
     color:seashell
 }
-#funParagraph {
+.funParagraph {
     color: green;
 }
 #firstHeader {
@@ -54,7 +54,11 @@ footer {
 footer:hover {
     color: rgb(0, 0, 0);
 }
-
+#water {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
 /* This is for animating */
 @keyframes backgroundColors {
     0% {
@@ -81,6 +85,9 @@ body {
     animation-direction: alternate;
     animation-timing-function: linear;
 }
+
+
+
 
 
 @keyframes a1 {
